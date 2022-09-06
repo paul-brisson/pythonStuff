@@ -1,3 +1,5 @@
+# repeatedly switches adjacent items
+# until there's none left to switch 
 def bubbleSort(ar):
     s = len(ar)
     for i in range(s):
