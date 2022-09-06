@@ -1,3 +1,5 @@
+# pushes down any right smaller that arr[i]
+# to the left
 def selectSort(arr):
     if len(arr) < 2:
         return
